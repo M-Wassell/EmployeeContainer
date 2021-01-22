@@ -22,6 +22,7 @@ namespace EmployeeContainer.Controllers
             return View(model);
         }
         public ViewResult Details(int id)
+
         {
             HomeDetailsViewModel homeDetailsViewModel = new HomeDetailsViewModel()
             {
