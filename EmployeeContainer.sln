@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeContainer", "EmployeeContainer\EmployeeContainer.csproj", "{0E3468EE-3448-4B9D-A805-FBC133DBA957}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeContainer", "EmployeeContainer\EmployeeContainer.csproj", "{0E3468EE-3448-4B9D-A805-FBC133DBA957}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeContainer.DataAccess", "EmployeeContainer.DataAccess\EmployeeContainer.DataAccess.csproj", "{5E526BD4-755D-4DBE-88E7-B7AB8D6C9BC1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{0E3468EE-3448-4B9D-A805-FBC133DBA957}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E3468EE-3448-4B9D-A805-FBC133DBA957}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E3468EE-3448-4B9D-A805-FBC133DBA957}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E526BD4-755D-4DBE-88E7-B7AB8D6C9BC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E526BD4-755D-4DBE-88E7-B7AB8D6C9BC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E526BD4-755D-4DBE-88E7-B7AB8D6C9BC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E526BD4-755D-4DBE-88E7-B7AB8D6C9BC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

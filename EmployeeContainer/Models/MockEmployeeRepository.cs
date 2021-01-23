@@ -20,6 +20,13 @@ namespace EmployeeContainer.Models
             };
         }
 
+        public Employee Add(Employee employee)
+        {
+            employee.Id = _employeeList.Max(employee => employee.Id) + 1;
+            _employeeList.Add(employee);
+            return employee;
+        }
+
         public IEnumerable<Employee> GetAllEmployee()
         {
             return _employeeList;
