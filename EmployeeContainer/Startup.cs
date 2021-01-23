@@ -31,6 +31,8 @@ namespace EmployeeContainer
 
             services.AddMvc(option => option.EnableEndpointRouting = false);
             services.AddScoped<IEmployeeRepository, SQLEmployeeRepository>();
+
+            // if statment to make it automated
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
